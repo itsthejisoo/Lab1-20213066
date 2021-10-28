@@ -1,9 +1,9 @@
 # parking lot_app
 
-##introduction
+## introduction
 - info of parking lot nearby, leftover parking spot application
 
-##features
+## features
 1. GPS tracking  
 : 사용자 위치를 찾고 근처 주차장을 추천해줍니다.  
 2. Booking  
@@ -19,7 +19,7 @@
 7. Leftover Parking spot
 : 주차장 자리가 얼마 남았는지 확인해줍니다.  
 
-##model
+## model
 - User
 - Lot
 - Parking
