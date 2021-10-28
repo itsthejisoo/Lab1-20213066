@@ -27,48 +27,48 @@
 - Leftover
 
 ## urls
-- users
-POST /users/ 
-: 사용자 등록
-PUT /users/id 
-: 사용자 정보수정
-GET /users/id 
-: 사용자 세부정보
-POST /users/login 
-: 사용자 로그인
-DELETE /users/logout 
-: 사용자 로그인
-DELETE /users/deactivate
-: 사용자 계정삭제 
-GET /bookmark/
-: 북마크 리스트
-POST /bookmark/
-: 북마크 등록 
-DELETE /bookmark/id
-: 북마크 삭제
+- users  
+POST /users/  
+: 사용자 등록  
+PUT /users/id  
+: 사용자 정보수정  
+GET /users/id  
+: 사용자 세부정보  
+POST /users/login   
+: 사용자 로그인  
+DELETE /users/logout   
+: 사용자 로그인  
+DELETE /users/deactivate  
+: 사용자 계정삭제   
+GET /bookmark/  
+: 북마크 리스트  
+POST /bookmark/  
+: 북마크 등록   
+DELETE /bookmark/id  
+: 북마크 삭제  
 
-- lots
-POST /lots/
-: 주차장 등록
-PUT /lots/id
-: 주차장 정보수정
-GET /lots/id
-: 주차장 세부정보
-GET /lots/map(action) 
-: 주차장 맵뷰(예: 서울시)
-GET /lots/distance_odr
-: 주차장 목록 거리순 정렬
-GET /lots/price_odr 
-: 주차장 목록 가격순 정렬
-DELETE /lots/id 
-: 주차장 삭제
+- lots  
+POST /lots/  
+: 주차장 등록  
+PUT /lots/id  
+: 주차장 정보수정  
+GET /lots/id  
+: 주차장 세부정보  
+GET /lots/map(action)   
+: 주차장 맵뷰(예: 서울시)  
+GET /lots/distance_odr  
+: 주차장 목록 거리순 정렬  
+GET /lots/price_odr   
+: 주차장 목록 가격순 정렬  
+DELETE /lots/id   
+: 주차장 삭제  
 
-- parkings
-POST /parkings/ 
-: 주차 이벤트 생성(주인의 사용내역만)
-GET  /parkings/
-: 유저의 주차 내역 목록(총비용, 주차장 정보)
-GET  /parkings/id
-: 주차세부정보 (총비용, 주차장 정보) 
-PUT  /parkings/id/
-: 주차시간을 추가(추가결제)
+- parkings  
+POST /parkings/   
+: 주차 이벤트 생성(주인의 사용내역만)  
+GET  /parkings/  
+: 유저의 주차 내역 목록(총비용, 주차장 정보)  
+GET  /parkings/id  
+: 주차세부정보 (총비용, 주차장 정보)   
+PUT  /parkings/id/  
+: 주차시간을 추가(추가결제)  
