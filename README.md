@@ -16,7 +16,7 @@
 : 주차장과 현재 위치 거리를 비교하여 가장 가까운 주차장을 추천해줍니다.  
 6. Bookmark favorite lot  
 : 즐겨찾기된 주차장은 사용자의 즐겨찾기 파일에 추가됩니다.  
-7. Leftover Parking spot
+7. Leftover Parking spot  
 : 주차장 자리가 얼마 남았는지 확인해줍니다.  
 
 ## model
